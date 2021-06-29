@@ -101,3 +101,19 @@ p {
   box-shadow: var(--box-shadow);
   color: white;
 }
+
+.text-center {
+    text-align: center!important;
+}
+
+@media (max-width: 768px) {
+h3 {
+    font-size: 22px;
+}
+h1 {
+    font-size: 32px;
+}
+h2, .email-link {
+    font-size: 26px;
+}
+}
